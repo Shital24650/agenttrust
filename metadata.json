@@ -1,0 +1,6 @@
+{
+  "name": "AgentTrust Benchmark",
+  "description": "A controlled, reproducible benchmark and evaluation harness that measures how tool-using LLM agents fail under five specific failure modes: Tool Selection, Error Recovery, Faithfulness, Adversarial Injection, and Compounding Propagation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

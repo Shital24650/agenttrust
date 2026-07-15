@@ -1,2 +1,20 @@
-# agenttrust
-Reliability benchmark harness for LLM agents — 60 standardized tasks across 5 failure modes (Tool Selection, Error Recovery, Faithfulness, Adversarial Injection, Compounding Errors). Live leaderboard comparing Claude 3.5 Sonnet, Gemini 3.5 Flash, and open-source backbones.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/04330c16-fd61-43c6-b648-810cd14da04c
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
